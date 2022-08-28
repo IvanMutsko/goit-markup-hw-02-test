@@ -8,12 +8,14 @@
     --white-text-colour: #FFFFFF;
     --footer-contacts-colour: rgba(255, 255, 255, 0.6);
 }
-
+/* забрати розмітку списків */
+li{
+    list-style-type: none;
+}
 /* загальні стилі header */
 .header {
     color: var(--title-text-colour);
     background-color: var(--background-colour);
-    text-decoration: none;
 }
 .header a {
     text-decoration: none;
@@ -69,6 +71,33 @@
     color: var(--footer-contacts-colour);
 }
 
-
-
 /* index.html styles */
+.main {
+    color: var(--title-text-colour);
+}
+/* heroic */
+.heroic {
+    background-color: var(--second-background-colour);
+    color: var(--white-text-colour);
+}
+.heroic-title {
+
+}
+.heroic-button {
+    background-color: var(--accent-colour);
+    color: var(--white-text-colour);
+}
+/* прихований заголовок */
+.hiden-text {
+    visibility: hidden
+}
+/* переваги */
+.benefits {
+
+}
+.benefits-title {
+    color: var(--title-text-colour);
+}
+.benefits-description {
+    color: var(--content-text-colour);
+}
