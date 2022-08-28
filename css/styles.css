@@ -1,0 +1,74 @@
+/* основні кольори */
+:root {
+    --main-background-colour: #FFFFFF;
+    --second-background-colour: #2F303A;
+    --title-text-colour: #212121;
+    --content-text-colour: #757575;
+    --accent-colour: #2196F3;
+    --white-text-colour: #FFFFFF;
+    --footer-contacts-colour: rgba(255, 255, 255, 0.6);
+}
+
+/* загальні стилі header */
+.header {
+    color: var(--title-text-colour);
+    background-color: var(--background-colour);
+    text-decoration: none;
+}
+.header a {
+    text-decoration: none;
+}
+.logo-header {
+    color: var(--title-text-colour);
+}
+.logo-header .logo:visited {
+    color: var(--title-text-colour);
+}
+.logo-header .web {
+    color: var(--accent-colour);
+}
+.button {
+    color: var(--title-text-colour);
+}
+.nav .button:hover,
+.nav .button:focus  {
+    color: var(--accent-colour);
+}
+.activity-pages {
+    color: var(--accent-colour);
+}
+.contacts-link {
+    color: var(--content-text-colour);
+}
+.contacts .contacts-link:hover,
+.contacts .contacts-link:focus {
+    color: var(--accent-colour);
+}
+
+/* загальні стилі footer */
+.footer {
+    background-color: var(--second-background-colour);
+}
+.footer a {
+    text-decoration: none;
+}
+.logo-footer {
+    color: var(--white-text-colour);
+}
+.logo-footer .logo {
+    color: var(--white-text-colour);
+    text-decoration: none;
+}
+.logo-footer .web {
+    color: var(--accent-colour);
+}
+.address {
+    color: var(--white-text-colour);
+}
+.address .contacts-link {
+    color: var(--footer-contacts-colour);
+}
+
+
+
+/* index.html styles */
