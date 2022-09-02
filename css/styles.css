@@ -9,6 +9,12 @@
     --footer-contacts-colour: rgba(255, 255, 255, 0.6);
     --filter-button-background-colour: #F5F4FA;
 }
+/* загальні стилі сайту0 */
+body {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-size: 14px;
+}
 /* забрати розмітку списків */
 li{
     list-style-type: none;
@@ -23,12 +29,23 @@ li{
 }
 .logo-header {
     color: var(--main-text-colour);
+
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
 }
 .logo-header .logo:visited {
     color: var(--main-text-colour);
 }
 .logo-header .web {
     color: var(--accent-colour);
+}
+.nav {
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
 }
 .button {
     color: var(--main-text-colour);
@@ -39,6 +56,11 @@ li{
 }
 .activity-pages {
     color: var(--accent-colour);
+}
+.contacts {
+    font-weight: 500;
+    line-height: 1.36;
+    letter-spacing: 0.02em;
 }
 .contacts-link {
     color: var(--content-text-colour);
@@ -57,6 +79,11 @@ li{
 }
 .logo-footer {
     color: var(--white-text-colour);
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
 }
 .logo-footer .logo {
     color: var(--white-text-colour);
@@ -67,6 +94,9 @@ li{
 }
 .address {
     color: var(--white-text-colour);
+
+    line-height: 1.71;  
+    letter-spacing: 0.03em;
 }
 .address .contacts-link {
     color: var(--footer-contacts-colour);
@@ -87,10 +117,21 @@ li{
 }
 .heroic-title {
     text-transform: uppercase;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
 }
 .heroic-button {
     background-color: var(--accent-colour);
     color: var(--white-text-colour);
+
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    display: flex;
+    align-items: center;
 }
 /* прихований заголовок */
 .hiden-text {
@@ -102,10 +143,42 @@ li{
 }
 .benefits-title {
     color: var(--main-text-colour);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
 }
 .benefits-description {
     color: var(--content-text-colour);
+    font-weight: 400;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
 }
+/* чим займаємось */
+.employment, .command{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+.team-member {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+.position {
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+
+
 
 /* стилі портфоліо */
 .portfolio-page {
