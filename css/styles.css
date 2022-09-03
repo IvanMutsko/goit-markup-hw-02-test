@@ -95,11 +95,16 @@ li{
 .address {
     color: var(--white-text-colour);
 
+    font-style: normal;
     line-height: 1.71;  
     letter-spacing: 0.03em;
 }
 .address .contacts-link {
     color: var(--footer-contacts-colour);
+    font-weight: 400;
+        font-size: 14px;
+        line-height: 1.71;
+        letter-spacing: 0.03em;
 }
 .footer .contacts-link:hover,
  .footer .contacts-link:focus{
@@ -184,6 +189,15 @@ li{
 .portfolio-page {
 
 }
+/* стилі фільтру */
+.filter-panel {
+    font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.62;
+        text-align: center;
+        letter-spacing: 0.03em;
+}
 .filter-button {
     background-color: var(--filter-button-background-colour);
     color: var(--main-text-colour);
@@ -193,9 +207,21 @@ li{
     background-color: var(--accent-colour);
     color: var(--white-text-colour);
 }
+.examples-works a {
+    text-decoration: none;
+}
 .examples-works h2 {
     color: var(--main-text-colour);
+
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
 }
 .examples-works p {
     color: var(--content-text-colour);
+
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.03em;
 }
